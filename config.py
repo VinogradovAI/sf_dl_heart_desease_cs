@@ -37,6 +37,13 @@ NUMERIC_COLUMNS = [
     'Maximum_heart_rate_achieved',
     'Oldpeak'
 ]
+OUTLIER_COLUMNS = [
+    'Resting_blood_pressure',
+    'Serum_cholestoral',
+    'Fasting_blood_sugar',
+    'Maximum_heart_rate_achieved',
+    'Oldpeak'
+]
 
 # Target column
 TARGET_COLUMN = 'class'
